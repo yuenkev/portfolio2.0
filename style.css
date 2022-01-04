@@ -1,0 +1,774 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+/* top nav bar section */
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 50px -20px 50px;
+}
+
+.logo {
+  color: aqua;
+  font-size: 25px;
+}
+.nav {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* intro section */
+.intro {
+  text-align: center;
+  padding: 50px 250px;
+  color: black;
+  font-size: 26px;
+}
+
+/* about section */
+
+.about {
+  background-color: blue;
+  height: auto;
+  color: white;
+  font-size: 20px;
+  padding: 35px 75px;
+  line-height: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 7px 7px;
+}
+
+.about .aboutrow1 {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.about .aboutrow1 h2 {
+  width: 50%;
+  font-size: 45px;
+}
+
+.about .aboutrow1 h3 {
+  width: 50%;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.about .aboutrow2 {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.about .aboutrow2 h3 {
+  width: 50%;
+  padding-right: 100px;
+  line-height: 150%;
+}
+
+/* work section */
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 150px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* projects #1 */
+.work .projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 7px 7px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.work .projects .workcol1 {
+  width: 50%;
+  background-color: greenyellow;
+  padding: 50px 10px;
+}
+
+.work .projects .workcol1 h2 {
+  font-size: 65px;
+  padding: 5px;
+  margin: 0;
+}
+
+.work .projects .workcol1 h3 {
+  display: inline-block;
+  vertical-align: center;
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.work .projects .workcol1 h4 {
+  font-size: 15px;
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+}
+
+.work .projects .workcol1 p {
+  font-size: 22px;
+  padding: 20px 75px;
+}
+
+.work .projects .workcol2 {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.workcol2 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* projects #2 */
+.work .projects2 {
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 7px 7px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.work .projects2 .workcol2 {
+  width: 50%;
+  background-color: #ff3465;
+  padding: 50px 10px;
+}
+
+.work .projects2 .workcol2 h2 {
+  font-size: 65px;
+  padding: 5px;
+  margin: 0;
+}
+
+.work .projects2 .workcol2 h3 {
+  display: inline-block;
+  vertical-align: center;
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.work .projects2 .workcol2 h4 {
+  font-size: 15px;
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+}
+
+.work .projects2 .workcol2 p {
+  font-size: 22px;
+  padding: 20px 75px;
+}
+
+.work .projects2 .workcol1 {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.workcol1 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* projects #3 */
+.work .projects3 {
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 7px 7px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.work .projects3 .workcol1 {
+  width: 50%;
+  background-color: aqua;
+  padding: 50px 10px;
+}
+
+.work .projects3 .workcol1 h2 {
+  font-size: 65px;
+  padding: 5px;
+  margin: 0;
+}
+
+.work .projects3 .workcol1 h3 {
+  display: inline-block;
+  vertical-align: center;
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.work .projects3 .workcol1 h4 {
+  font-size: 15px;
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+}
+
+.work .projects3 .workcol1 p {
+  font-size: 22px;
+  padding: 20px 75px;
+}
+
+.work .projects3 .workcol2 {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.workcol2 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* contact section */
+
+.contact {
+  background-color: #222;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 7px 7px;
+  text-align: center;
+  margin: 25px 0px;
+  padding: 50px 0px;
+  color: white;
+}
+
+.contact .content {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 150px;
+  height: auto;
+}
+
+.contact .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  color: white;
+  text-align: center;
+  padding: 55px;
+}
+
+.email,
+.twitter,
+.linked,
+.git {
+  padding: 35px;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.info i {
+  color: greenyellow;
+  padding-right: 50px;
+  font-size: 45px;
+}
+
+.contact .connect {
+  background-color: white;
+  width: 50%;
+  padding: 55px;
+  color: #222;
+  font-size: 25px;
+}
+
+.contact h1 {
+  font-size: 50px;
+}
+
+.contact h3 {
+  font-size: 30px;
+}
+
+.connect h1 {
+  font-size: 50px;
+}
+
+.connect h3 {
+  font-size: 30px;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: black solid 2px;
+  color: #444;
+  width: 65%;
+  padding: 15px;
+}
+
+input[type="submit"] {
+  background-color: fuchsia;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* media queries*/
+
+@media only screen and (max-width: 1333px) {
+  /* tablet & small laptops*/
+
+  header {
+    margin: 20px 50px -20px 50px;
+  }
+
+  /* intro section */
+  .intro {
+    padding: 50px 100px;
+  }
+
+  /*about section */
+  .about {
+    padding: 35px;
+  }
+
+  .about .aboutrow1 {
+    padding: 25px;
+    font-weight: bold;
+  }
+
+  .about .aboutrow1 h2 {
+    font-size: 40px;
+    padding-right: 30px;
+  }
+
+  .about .aboutrow1 h3 {
+    width: 50%;
+    line-height: 150%;
+    font-size: 20px;
+  }
+
+  .about .aboutrow2 {
+    padding: 25px;
+  }
+
+  .about .aboutrow2 h3 {
+    font-size: 20px;
+  }
+
+  /*project section */
+  .work .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 7px 7px;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0px;
+  }
+
+  .work {
+    margin: 15px 125px;
+  }
+
+  .work .projects .workcol1 {
+    width: 100%;
+    background-color: greenyellow;
+    padding: 50px 10px;
+    padding-right: 0px;
+  }
+
+  .work .projects .workcol2 {
+    padding: 50px 10px;
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .workcol2 img {
+    width: 100%;
+  }
+
+  /* projects #2 */
+  .work .projects2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work .projects2 .workcol2 {
+    width: 100%;
+    background-color: #ff3465;
+    padding-right: 0px;
+  }
+
+  .work .projects2 .workcol1 {
+    width: 100%;
+    padding: 50px 10px;
+    padding-right: 0px;
+  }
+
+  .workcol1 img {
+    width: 100%;
+  }
+
+  /* projects #3 */
+  .work .projects3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work .projects3 .workcol1 {
+    width: 100%;
+    background-color: aqua;
+    padding: 50px 10px;
+    padding-right: 0px;
+  }
+
+  .work .projects3 .workcol1 h2 {
+    font-size: 55px;
+    font-weight: bold;
+  }
+
+  .work .projects3 .workcol2 {
+    width: 100%;
+    padding: 50px 10px;
+    padding-right: 0px;
+  }
+
+  .workcol2 img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  /* contact section */
+
+  .contact .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .contact .info {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 35px;
+  }
+
+  .info i {
+    color: greenyellow;
+    padding-right: 25px;
+    font-size: 40px;
+  }
+
+  .info i a {
+    font-size: 30px;
+  }
+
+  .contact .connect {
+    width: 100%;
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .contact .connect h1 {
+    font-size: 45px;
+  }
+
+  .contact .connect h3 {
+    font-size: 25px;
+  }
+  input[type="submit"] {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  input,
+  textarea {
+    border: none;
+    border-bottom: black solid 2px;
+    color: #444;
+    width: 50%;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+}
+
+/* phones */
+
+@media only screen and (max-width: 575px) {
+  body {
+    position: absolute;
+  }
+
+  .work .projects .workcol1 h2 {
+    font-size: 55px;
+  }
+
+  .work .projects2 .workcol2 h2 {
+    font-size: 55px;
+  }
+  .work .projects3 .workcol1 h2 {
+    font-size: 50px;
+  }
+}
+
+/* bigger laptop screens */
+
+@media only screen and (min-width: 1500px) {
+  /* top nav bar section */
+
+  .work .projects .workcol1 {
+    padding: 50px;
+  }
+
+  .work .projects .workcol1 h4 {
+    font-size: 15px;
+  }
+
+  .work .projects .workcol1 h2 {
+    font-size: 60px;
+  }
+
+  .work .projects .workcol1 p {
+    font-size: 20px;
+  }
+
+  .work .projects .workcol1 h3 {
+    font-size: 20px;
+  }
+
+  /* p2 */
+
+  .work .projects2 .workcol2 {
+    padding: 50px;
+  }
+
+  .work .projects2 .workcol2 h4 {
+    font-size: 15px;
+  }
+
+  .work .projects2 .workcol2 h2 {
+    font-size: 60px;
+  }
+
+  .work .projects2 .workcol2 p {
+    font-size: 20px;
+  }
+
+  .work .projects2 .workcol2 h3 {
+    font-size: 20px;
+  }
+
+  /* p3 */
+
+  .work .projects3 .workcol1 {
+    padding: 50px;
+  }
+
+  .work .projects3 .workcol1 h4 {
+    font-size: 15px;
+  }
+
+  .work .projects3 .workcol1 h2 {
+    font-size: 60px;
+  }
+
+  .work .projects3 .workcol1 p {
+    font-size: 20px;
+  }
+
+  .work .projects3 .workcol1 h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1860px) {
+  /* top nav bar section */
+
+  /*p1*/
+  .work .projects .workcol1 {
+    padding: 90px;
+  }
+
+  .work .projects .workcol1 h4 {
+    font-size: 17px;
+  }
+
+  .work .projects .workcol1 h2 {
+    font-size: 70px;
+  }
+
+  .work .projects .workcol1 p {
+    font-size: 25px;
+  }
+
+  .work .projects .workcol1 h3 {
+    font-size: 25px;
+  }
+
+  /* p2 */
+  .work .projects2 .workcol2 {
+    padding: 90px;
+  }
+
+  .work .projects2 .workcol2 h4 {
+    font-size: 17px;
+  }
+
+  .work .projects2 .workcol1 h2 {
+    font-size: 70px;
+  }
+
+  .work .projects2 .workcol2 p {
+    font-size: 25px;
+  }
+
+  .work .projects2 .workcol2 h3 {
+    font-size: 25px;
+  }
+
+  /*p3*/
+  .work .projects3 .workcol1 {
+    padding: 90px;
+  }
+
+  .work .projects3 .workcol1 h4 {
+    font-size: 17px;
+  }
+
+  .work .projects3 .workcol1 h2 {
+    font-size: 70px;
+  }
+
+  .work .projects3 .workcol1 p {
+    font-size: 25px;
+  }
+
+  .work .projects3 .workcol1 h3 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 2300px) {
+  /* top nav bar section */
+
+  /*p1*/
+
+  .work .projects .workcol1 {
+    padding: 100px;
+  }
+
+  .work .projects .workcol1 h4 {
+    font-size: 30px;
+  }
+
+  .work .projects .workcol1 h2 {
+    font-size: 110px;
+  }
+
+  .work .projects .workcol1 p {
+    font-size: 40px;
+  }
+  .work .projects .workcol1 h3 {
+    font-size: 40px;
+  }
+
+  /*p2*/
+
+  .work .projects2 .workcol2 {
+    padding: 100px;
+  }
+
+  .work .projects2 .workcol2 h4 {
+    font-size: 30px;
+  }
+
+  .work .projects2 .workcol2 h2 {
+    font-size: 110px;
+  }
+
+  .work .projects2 .workcol2 p {
+    font-size: 40px;
+  }
+  .work .projects2 .workcol2 h3 {
+    font-size: 40px;
+  }
+
+  /*p3*/
+
+  .work .projects3 .workcol1 {
+    padding: 100px;
+  }
+
+  .work .projects3 .workcol1 h4 {
+    font-size: 30px;
+  }
+
+  .work .projects3 .workcol1 h2 {
+    font-size: 110px;
+  }
+
+  .work .projects3 .workcol1 p {
+    font-size: 40px;
+  }
+  .work .projects3 .workcol1 h3 {
+    font-size: 40px;
+  }
+}
